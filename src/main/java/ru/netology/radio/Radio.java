@@ -8,13 +8,14 @@ public class Radio {
     private int minVolume = 0;
     private int maxVolume = 10;
 
-public Radio() {
-maxStation = 9;
-}
+    public Radio() {
+        maxStation = 9;
+    }
 
-public Radio(int countStation) {
-    maxStation = countStation -1;
-}
+    public Radio(int countStation) {
+        maxStation = countStation - 1;
+    }
+
     public int getCurrentStation() {
         return currentStation;
     }
