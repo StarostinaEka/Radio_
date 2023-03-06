@@ -23,11 +23,11 @@ public class RadioTest {
 
     @Test
     public void testVolume() {
-        Radio radio = new Radio(99);
-        radio.setCurrentVolume(60);
+        Radio Radio = new Radio(99);
+        Radio.setCurrentVolume(60);
 
         int expected = 60;
-        int actual = radio.getCurrentVolume();
+        int actual = Radio.getCurrentVolume();
 
         Assertions.assertEquals(expected, actual);
     }

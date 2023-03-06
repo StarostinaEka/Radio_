@@ -10,12 +10,14 @@ public class Radio {
 
     public Radio() {
         maxStation = 9;
+
     }
 
     public Radio(int countStation) {
 
         maxStation = countStation - 1;
     }
+
 
     public int getCurrentStation() {
         return currentStation;
@@ -45,6 +47,7 @@ public class Radio {
     }
 
     public int getCurrentVolume() {
+
         return currentVolume;
     }
 
