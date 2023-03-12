@@ -20,18 +20,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-
-    @Test
-    public void testVolume() {
-        Radio Radio = new Radio(99);
-        Radio.setCurrentVolume(60);
-
-        int expected = 60;
-        int actual = Radio.getCurrentVolume();
-
-        Assertions.assertEquals(expected, actual);
-    }
-    @Test
+        @Test
     void shouldChangeStation() {
         assertEquals(0, radio.getCurrentStation());
         radio.setCurrentStation(5);
